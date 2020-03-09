@@ -9259,3 +9259,840 @@ OSError: [WinError 10022] Un argument non valide a été fourni
 2020-03-09 13:48:38,751 DEBUG    errbot.core               Triggering callback_presence on VersionChecker.
 2020-03-09 13:48:39,535 DEBUG    urllib3.connectionpool    https://errbot-1127.appspot.com:443 "GET /?errbot=6.1.2&python=3.7.4 HTTP/1.1" 200 5
 2020-03-09 13:48:39,538 DEBUG    errbot.plugins.VersionChecker Tested current Errbot version and it is 6.1.2
+2020-03-09 14:29:29,675 INFO     errbot.bootstrap          Found Storage plugin: Shelf.
+2020-03-09 14:29:29,696 INFO     errbot.bootstrap          Found Backend plugin: Slack
+2020-03-09 14:29:29,697 DEBUG    errbot.storage            Opening storage 'repomgr'
+2020-03-09 14:29:29,700 DEBUG    errbot.storage.shelf      Open shelf storage C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\data\repomgr.db
+2020-03-09 14:29:30,872 DEBUG    errbot.core               ErrBot init.
+2020-03-09 14:29:30,873 DEBUG    errbot.backends.base      Backend init.
+2020-03-09 14:29:30,886 DEBUG    errbot.core               created a thread pool of size 10.
+2020-03-09 14:29:30,901 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.smart_strong".
+2020-03-09 14:29:30,903 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.smart_strong.SmartEmphasisExtension".
+2020-03-09 14:29:30,903 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.fenced_code".
+2020-03-09 14:29:30,904 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+2020-03-09 14:29:30,907 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.footnotes".
+2020-03-09 14:29:30,908 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+2020-03-09 14:29:30,915 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.attr_list".
+2020-03-09 14:29:30,915 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+2020-03-09 14:29:30,918 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.def_list".
+2020-03-09 14:29:30,918 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+2020-03-09 14:29:30,921 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.tables".
+2020-03-09 14:29:30,922 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.tables.TableExtension".
+2020-03-09 14:29:30,925 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.abbr".
+2020-03-09 14:29:30,926 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+2020-03-09 14:29:30,927 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+2020-03-09 14:29:30,928 DEBUG    MARKDOWN                  Successfully loaded extension "errbot.rendering.ansiext.AnsiExtension".
+2020-03-09 14:29:30,931 DEBUG    errbot.storage            Opening storage 'core'
+2020-03-09 14:29:30,934 DEBUG    errbot.storage.shelf      Open shelf storage C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\data\core.db
+2020-03-09 14:29:30,963 DEBUG    errbot.core               Initializing backend storage
+2020-03-09 14:29:30,963 DEBUG    errbot.storage            Opening storage 'slack_backend'
+2020-03-09 14:29:30,967 DEBUG    errbot.storage.shelf      Open shelf storage C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\data\slack_backend.db
+2020-03-09 14:29:30,993 DEBUG    errbot.plugin_manager     New entries added to sys.path:
+2020-03-09 14:29:30,993 DEBUG    errbot.plugin_manager     c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\core_plugins
+2020-03-09 14:29:30,995 DEBUG    errbot.plugin_manager     C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\plugins\err-example
+2020-03-09 14:29:31,005 DEBUG    errbot.plugins.ACLs       Logger for plugin initialized...
+2020-03-09 14:29:31,013 DEBUG    errbot.plugins.Backup     Logger for plugin initialized...
+2020-03-09 14:29:31,019 DEBUG    errbot.plugins.ChatRoom   Logger for plugin initialized...
+2020-03-09 14:29:31,025 DEBUG    errbot.plugins.CommandNotFoundFilter Logger for plugin initialized...
+2020-03-09 14:29:31,035 DEBUG    errbot.plugins.Flows      Logger for plugin initialized...
+2020-03-09 14:29:31,045 DEBUG    errbot.plugins.Health     Logger for plugin initialized...
+2020-03-09 14:29:31,050 DEBUG    errbot.plugins.Help       Logger for plugin initialized...
+2020-03-09 14:29:31,056 DEBUG    errbot.plugins.Plugins    Logger for plugin initialized...
+2020-03-09 14:29:31,064 DEBUG    errbot.plugins.TextCmds   Logger for plugin initialized...
+2020-03-09 14:29:31,070 DEBUG    errbot.plugins.Utils      Logger for plugin initialized...
+2020-03-09 14:29:31,077 DEBUG    errbot.plugins.VersionChecker Logger for plugin initialized...
+2020-03-09 14:29:31,701 INFO     errbot                    webhooks:  Flag to bind /echo to echo
+2020-03-09 14:29:31,702 DEBUG    errbot.plugins.Webserver  Logger for plugin initialized...
+2020-03-09 14:29:31,745 DEBUG    errbot.plugins.Example    Logger for plugin initialized...
+2020-03-09 14:29:31,760 DEBUG    errbot.bootstrap          Start serving commands from the slack backend.
+2020-03-09 14:29:31,761 INFO     errbot.backends.slack     Verifying authentication token
+2020-03-09 14:29:31,772 DEBUG    urllib3.connectionpool    Starting new HTTPS connection (1): slack.com:443
+2020-03-09 14:29:32,704 DEBUG    urllib3.connectionpool    https://slack.com:443 "POST /api/auth.test HTTP/1.1" 200 55
+2020-03-09 14:29:32,711 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\base.py", line 699, in serve_forever
+    if self.serve_once():
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\slack.py", line 364, in serve_once
+    raise SlackAPIResponseError(error=f"Couldn't authenticate with Slack. Server said: {self.auth['error']}")
+errbot.backends.slack.SlackAPIResponseError
+2020-03-09 14:29:32,718 INFO     errbot.backends.base      Reconnecting in 1 seconds (0 attempted reconnections so far).
+2020-03-09 14:29:33,719 INFO     errbot.backends.slack     Verifying authentication token
+2020-03-09 14:29:33,726 DEBUG    urllib3.connectionpool    Starting new HTTPS connection (1): slack.com:443
+2020-03-09 14:29:34,122 DEBUG    urllib3.connectionpool    https://slack.com:443 "POST /api/auth.test HTTP/1.1" 200 55
+2020-03-09 14:29:34,126 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\base.py", line 699, in serve_forever
+    if self.serve_once():
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\slack.py", line 364, in serve_once
+    raise SlackAPIResponseError(error=f"Couldn't authenticate with Slack. Server said: {self.auth['error']}")
+errbot.backends.slack.SlackAPIResponseError
+2020-03-09 14:29:34,128 INFO     errbot.backends.base      Reconnecting in 2 seconds (1 attempted reconnections so far).
+2020-03-09 14:29:36,944 INFO     errbot.backends.slack     Verifying authentication token
+2020-03-09 14:29:36,948 DEBUG    urllib3.connectionpool    Starting new HTTPS connection (1): slack.com:443
+2020-03-09 14:29:37,644 DEBUG    urllib3.connectionpool    https://slack.com:443 "POST /api/auth.test HTTP/1.1" 200 55
+2020-03-09 14:29:37,648 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\base.py", line 699, in serve_forever
+    if self.serve_once():
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\slack.py", line 364, in serve_once
+    raise SlackAPIResponseError(error=f"Couldn't authenticate with Slack. Server said: {self.auth['error']}")
+errbot.backends.slack.SlackAPIResponseError
+2020-03-09 14:29:37,651 INFO     errbot.backends.base      Reconnecting in 6 seconds (2 attempted reconnections so far).
+2020-03-09 14:29:44,393 INFO     errbot.backends.slack     Verifying authentication token
+2020-03-09 14:29:44,397 DEBUG    urllib3.connectionpool    Starting new HTTPS connection (1): slack.com:443
+2020-03-09 14:29:45,133 DEBUG    urllib3.connectionpool    https://slack.com:443 "POST /api/auth.test HTTP/1.1" 200 55
+2020-03-09 14:29:45,137 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\base.py", line 699, in serve_forever
+    if self.serve_once():
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\slack.py", line 364, in serve_once
+    raise SlackAPIResponseError(error=f"Couldn't authenticate with Slack. Server said: {self.auth['error']}")
+errbot.backends.slack.SlackAPIResponseError
+2020-03-09 14:29:45,139 INFO     errbot.backends.base      Reconnecting in 13 seconds (3 attempted reconnections so far).
+2020-03-09 14:29:59,120 INFO     errbot.backends.slack     Verifying authentication token
+2020-03-09 14:29:59,125 DEBUG    urllib3.connectionpool    Starting new HTTPS connection (1): slack.com:443
+2020-03-09 14:29:59,633 DEBUG    urllib3.connectionpool    https://slack.com:443 "POST /api/auth.test HTTP/1.1" 200 55
+2020-03-09 14:29:59,636 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\base.py", line 699, in serve_forever
+    if self.serve_once():
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\slack.py", line 364, in serve_once
+    raise SlackAPIResponseError(error=f"Couldn't authenticate with Slack. Server said: {self.auth['error']}")
+errbot.backends.slack.SlackAPIResponseError
+2020-03-09 14:29:59,637 INFO     errbot.backends.base      Reconnecting in 26 seconds (4 attempted reconnections so far).
+2020-03-09 14:30:26,487 INFO     errbot.backends.slack     Verifying authentication token
+2020-03-09 14:30:26,495 DEBUG    urllib3.connectionpool    Starting new HTTPS connection (1): slack.com:443
+2020-03-09 14:30:26,861 DEBUG    urllib3.connectionpool    https://slack.com:443 "POST /api/auth.test HTTP/1.1" 200 55
+2020-03-09 14:30:26,869 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\base.py", line 699, in serve_forever
+    if self.serve_once():
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\slack.py", line 364, in serve_once
+    raise SlackAPIResponseError(error=f"Couldn't authenticate with Slack. Server said: {self.auth['error']}")
+errbot.backends.slack.SlackAPIResponseError
+2020-03-09 14:30:26,873 INFO     errbot.backends.base      Reconnecting in 49 seconds (5 attempted reconnections so far).
+2020-03-09 14:31:16,857 INFO     errbot.backends.slack     Verifying authentication token
+2020-03-09 14:31:16,861 DEBUG    urllib3.connectionpool    Starting new HTTPS connection (1): slack.com:443
+2020-03-09 14:31:17,552 DEBUG    urllib3.connectionpool    https://slack.com:443 "POST /api/auth.test HTTP/1.1" 200 55
+2020-03-09 14:31:17,556 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\base.py", line 699, in serve_forever
+    if self.serve_once():
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\slack.py", line 364, in serve_once
+    raise SlackAPIResponseError(error=f"Couldn't authenticate with Slack. Server said: {self.auth['error']}")
+errbot.backends.slack.SlackAPIResponseError
+2020-03-09 14:31:17,558 INFO     errbot.backends.base      Reconnecting in 89 seconds (6 attempted reconnections so far).
+2020-03-09 14:32:51,033 INFO     errbot.bootstrap          Found Storage plugin: Shelf.
+2020-03-09 14:32:51,055 INFO     errbot.bootstrap          Found Backend plugin: Slack
+2020-03-09 14:32:51,055 DEBUG    errbot.storage            Opening storage 'repomgr'
+2020-03-09 14:32:51,058 DEBUG    errbot.storage.shelf      Open shelf storage C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\data\repomgr.db
+2020-03-09 14:32:52,234 DEBUG    errbot.core               ErrBot init.
+2020-03-09 14:32:52,235 DEBUG    errbot.backends.base      Backend init.
+2020-03-09 14:32:52,246 DEBUG    errbot.core               created a thread pool of size 10.
+2020-03-09 14:32:52,262 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.smart_strong".
+2020-03-09 14:32:52,263 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.smart_strong.SmartEmphasisExtension".
+2020-03-09 14:32:52,264 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.fenced_code".
+2020-03-09 14:32:52,264 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+2020-03-09 14:32:52,268 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.footnotes".
+2020-03-09 14:32:52,269 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+2020-03-09 14:32:52,277 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.attr_list".
+2020-03-09 14:32:52,278 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+2020-03-09 14:32:52,280 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.def_list".
+2020-03-09 14:32:52,281 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+2020-03-09 14:32:52,285 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.tables".
+2020-03-09 14:32:52,286 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.tables.TableExtension".
+2020-03-09 14:32:52,289 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.abbr".
+2020-03-09 14:32:52,289 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+2020-03-09 14:32:52,292 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+2020-03-09 14:32:52,296 DEBUG    MARKDOWN                  Successfully loaded extension "errbot.rendering.ansiext.AnsiExtension".
+2020-03-09 14:32:52,296 DEBUG    errbot.storage            Opening storage 'core'
+2020-03-09 14:32:52,297 DEBUG    errbot.storage.shelf      Open shelf storage C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\data\core.db
+2020-03-09 14:32:52,311 DEBUG    errbot.core               Initializing backend storage
+2020-03-09 14:32:52,312 DEBUG    errbot.storage            Opening storage 'slack_backend'
+2020-03-09 14:32:52,318 DEBUG    errbot.storage.shelf      Open shelf storage C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\data\slack_backend.db
+2020-03-09 14:32:52,335 DEBUG    errbot.plugin_manager     New entries added to sys.path:
+2020-03-09 14:32:52,336 DEBUG    errbot.plugin_manager     c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\core_plugins
+2020-03-09 14:32:52,337 DEBUG    errbot.plugin_manager     C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\plugins\err-example
+2020-03-09 14:32:52,345 DEBUG    errbot.plugins.ACLs       Logger for plugin initialized...
+2020-03-09 14:32:52,353 DEBUG    errbot.plugins.Backup     Logger for plugin initialized...
+2020-03-09 14:32:52,358 DEBUG    errbot.plugins.ChatRoom   Logger for plugin initialized...
+2020-03-09 14:32:52,363 DEBUG    errbot.plugins.CommandNotFoundFilter Logger for plugin initialized...
+2020-03-09 14:32:52,374 DEBUG    errbot.plugins.Flows      Logger for plugin initialized...
+2020-03-09 14:32:52,380 DEBUG    errbot.plugins.Health     Logger for plugin initialized...
+2020-03-09 14:32:52,388 DEBUG    errbot.plugins.Help       Logger for plugin initialized...
+2020-03-09 14:32:52,394 DEBUG    errbot.plugins.Plugins    Logger for plugin initialized...
+2020-03-09 14:32:52,402 DEBUG    errbot.plugins.TextCmds   Logger for plugin initialized...
+2020-03-09 14:32:52,406 DEBUG    errbot.plugins.Utils      Logger for plugin initialized...
+2020-03-09 14:32:52,412 DEBUG    errbot.plugins.VersionChecker Logger for plugin initialized...
+2020-03-09 14:32:53,106 INFO     errbot                    webhooks:  Flag to bind /echo to echo
+2020-03-09 14:32:53,108 DEBUG    errbot.plugins.Webserver  Logger for plugin initialized...
+2020-03-09 14:32:53,161 DEBUG    errbot.plugins.Example    Logger for plugin initialized...
+2020-03-09 14:32:53,178 DEBUG    errbot.bootstrap          Start serving commands from the slack backend.
+2020-03-09 14:32:53,179 INFO     errbot.backends.slack     Verifying authentication token
+2020-03-09 14:32:53,190 DEBUG    urllib3.connectionpool    Starting new HTTPS connection (1): slack.com:443
+2020-03-09 14:32:54,142 DEBUG    urllib3.connectionpool    https://slack.com:443 "POST /api/auth.test HTTP/1.1" 200 55
+2020-03-09 14:32:54,188 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\base.py", line 699, in serve_forever
+    if self.serve_once():
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\slack.py", line 364, in serve_once
+    raise SlackAPIResponseError(error=f"Couldn't authenticate with Slack. Server said: {self.auth['error']}")
+errbot.backends.slack.SlackAPIResponseError
+2020-03-09 14:32:54,213 INFO     errbot.backends.base      Reconnecting in 1 seconds (0 attempted reconnections so far).
+2020-03-09 14:32:55,229 INFO     errbot.backends.slack     Verifying authentication token
+2020-03-09 14:32:55,234 DEBUG    urllib3.connectionpool    Starting new HTTPS connection (1): slack.com:443
+2020-03-09 14:32:56,149 DEBUG    urllib3.connectionpool    https://slack.com:443 "POST /api/auth.test HTTP/1.1" 200 55
+2020-03-09 14:32:56,153 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\base.py", line 699, in serve_forever
+    if self.serve_once():
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\slack.py", line 364, in serve_once
+    raise SlackAPIResponseError(error=f"Couldn't authenticate with Slack. Server said: {self.auth['error']}")
+errbot.backends.slack.SlackAPIResponseError
+2020-03-09 14:32:56,154 INFO     errbot.backends.base      Reconnecting in 3 seconds (1 attempted reconnections so far).
+2020-03-09 14:32:59,958 INFO     errbot.backends.slack     Verifying authentication token
+2020-03-09 14:32:59,961 DEBUG    urllib3.connectionpool    Starting new HTTPS connection (1): slack.com:443
+2020-03-09 14:33:00,976 DEBUG    urllib3.connectionpool    https://slack.com:443 "POST /api/auth.test HTTP/1.1" 200 55
+2020-03-09 14:33:00,981 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\base.py", line 699, in serve_forever
+    if self.serve_once():
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\slack.py", line 364, in serve_once
+    raise SlackAPIResponseError(error=f"Couldn't authenticate with Slack. Server said: {self.auth['error']}")
+errbot.backends.slack.SlackAPIResponseError
+2020-03-09 14:33:00,983 INFO     errbot.backends.base      Reconnecting in 8 seconds (2 attempted reconnections so far).
+2020-03-09 14:33:09,061 INFO     errbot.backends.slack     Verifying authentication token
+2020-03-09 14:33:09,064 DEBUG    urllib3.connectionpool    Starting new HTTPS connection (1): slack.com:443
+2020-03-09 14:33:10,071 DEBUG    urllib3.connectionpool    https://slack.com:443 "POST /api/auth.test HTTP/1.1" 200 55
+2020-03-09 14:33:10,076 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\base.py", line 699, in serve_forever
+    if self.serve_once():
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\slack.py", line 364, in serve_once
+    raise SlackAPIResponseError(error=f"Couldn't authenticate with Slack. Server said: {self.auth['error']}")
+errbot.backends.slack.SlackAPIResponseError
+2020-03-09 14:33:10,078 INFO     errbot.backends.base      Reconnecting in 16 seconds (3 attempted reconnections so far).
+2020-03-09 14:33:27,014 INFO     errbot.backends.slack     Verifying authentication token
+2020-03-09 14:33:27,017 DEBUG    urllib3.connectionpool    Starting new HTTPS connection (1): slack.com:443
+2020-03-09 14:33:27,720 DEBUG    urllib3.connectionpool    https://slack.com:443 "POST /api/auth.test HTTP/1.1" 200 55
+2020-03-09 14:33:27,724 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\base.py", line 699, in serve_forever
+    if self.serve_once():
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\slack.py", line 364, in serve_once
+    raise SlackAPIResponseError(error=f"Couldn't authenticate with Slack. Server said: {self.auth['error']}")
+errbot.backends.slack.SlackAPIResponseError
+2020-03-09 14:33:27,726 INFO     errbot.backends.base      Reconnecting in 30 seconds (4 attempted reconnections so far).
+2020-03-09 14:33:57,888 INFO     errbot.backends.slack     Verifying authentication token
+2020-03-09 14:33:57,893 DEBUG    urllib3.connectionpool    Starting new HTTPS connection (1): slack.com:443
+2020-03-09 14:33:58,831 DEBUG    urllib3.connectionpool    https://slack.com:443 "POST /api/auth.test HTTP/1.1" 200 55
+2020-03-09 14:33:58,835 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\base.py", line 699, in serve_forever
+    if self.serve_once():
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\slack.py", line 364, in serve_once
+    raise SlackAPIResponseError(error=f"Couldn't authenticate with Slack. Server said: {self.auth['error']}")
+errbot.backends.slack.SlackAPIResponseError
+2020-03-09 14:33:58,837 INFO     errbot.backends.base      Reconnecting in 55 seconds (5 attempted reconnections so far).
+2020-03-09 14:34:54,568 INFO     errbot.backends.slack     Verifying authentication token
+2020-03-09 14:34:54,574 DEBUG    urllib3.connectionpool    Starting new HTTPS connection (1): slack.com:443
+2020-03-09 14:34:55,695 DEBUG    urllib3.connectionpool    https://slack.com:443 "POST /api/auth.test HTTP/1.1" 200 55
+2020-03-09 14:34:55,698 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\base.py", line 699, in serve_forever
+    if self.serve_once():
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\backends\slack.py", line 364, in serve_once
+    raise SlackAPIResponseError(error=f"Couldn't authenticate with Slack. Server said: {self.auth['error']}")
+errbot.backends.slack.SlackAPIResponseError
+2020-03-09 14:34:55,701 INFO     errbot.backends.base      Reconnecting in 98 seconds (6 attempted reconnections so far).
+2020-03-09 14:36:51,365 INFO     errbot.bootstrap          Found Storage plugin: Shelf.
+2020-03-09 14:36:51,388 INFO     errbot.bootstrap          Found Backend plugin: Slack
+2020-03-09 14:36:51,389 DEBUG    errbot.storage            Opening storage 'repomgr'
+2020-03-09 14:36:51,392 DEBUG    errbot.storage.shelf      Open shelf storage C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\data\repomgr.db
+2020-03-09 14:36:52,766 DEBUG    errbot.core               ErrBot init.
+2020-03-09 14:36:52,767 DEBUG    errbot.backends.base      Backend init.
+2020-03-09 14:36:52,779 DEBUG    errbot.core               created a thread pool of size 10.
+2020-03-09 14:36:52,795 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.smart_strong".
+2020-03-09 14:36:52,797 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.smart_strong.SmartEmphasisExtension".
+2020-03-09 14:36:52,797 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.fenced_code".
+2020-03-09 14:36:52,798 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+2020-03-09 14:36:52,801 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.footnotes".
+2020-03-09 14:36:52,801 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+2020-03-09 14:36:52,813 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.attr_list".
+2020-03-09 14:36:52,814 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+2020-03-09 14:36:52,817 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.def_list".
+2020-03-09 14:36:52,817 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+2020-03-09 14:36:52,821 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.tables".
+2020-03-09 14:36:52,823 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.tables.TableExtension".
+2020-03-09 14:36:52,827 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.abbr".
+2020-03-09 14:36:52,827 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+2020-03-09 14:36:52,828 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+2020-03-09 14:36:52,828 DEBUG    MARKDOWN                  Successfully loaded extension "errbot.rendering.ansiext.AnsiExtension".
+2020-03-09 14:36:52,830 DEBUG    errbot.storage            Opening storage 'core'
+2020-03-09 14:36:52,836 DEBUG    errbot.storage.shelf      Open shelf storage C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\data\core.db
+2020-03-09 14:36:52,943 DEBUG    errbot.core               Initializing backend storage
+2020-03-09 14:36:52,946 DEBUG    errbot.storage            Opening storage 'slack_backend'
+2020-03-09 14:36:52,952 DEBUG    errbot.storage.shelf      Open shelf storage C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\data\slack_backend.db
+2020-03-09 14:36:53,007 DEBUG    errbot.plugin_manager     New entries added to sys.path:
+2020-03-09 14:36:53,007 DEBUG    errbot.plugin_manager     C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\plugins\err-example
+2020-03-09 14:36:53,009 DEBUG    errbot.plugin_manager     c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\core_plugins
+2020-03-09 14:36:53,030 DEBUG    errbot.plugins.Example    Logger for plugin initialized...
+2020-03-09 14:36:53,058 DEBUG    errbot.plugins.ACLs       Logger for plugin initialized...
+2020-03-09 14:36:53,074 DEBUG    errbot.plugins.Backup     Logger for plugin initialized...
+2020-03-09 14:36:53,084 DEBUG    errbot.plugins.ChatRoom   Logger for plugin initialized...
+2020-03-09 14:36:53,108 DEBUG    errbot.plugins.CommandNotFoundFilter Logger for plugin initialized...
+2020-03-09 14:36:53,128 DEBUG    errbot.plugins.Flows      Logger for plugin initialized...
+2020-03-09 14:36:53,146 DEBUG    errbot.plugins.Health     Logger for plugin initialized...
+2020-03-09 14:36:53,154 DEBUG    errbot.plugins.Help       Logger for plugin initialized...
+2020-03-09 14:36:53,165 DEBUG    errbot.plugins.Plugins    Logger for plugin initialized...
+2020-03-09 14:36:53,175 DEBUG    errbot.plugins.TextCmds   Logger for plugin initialized...
+2020-03-09 14:36:53,183 DEBUG    errbot.plugins.Utils      Logger for plugin initialized...
+2020-03-09 14:36:53,193 DEBUG    errbot.plugins.VersionChecker Logger for plugin initialized...
+2020-03-09 14:36:53,616 INFO     errbot                    webhooks:  Flag to bind /echo to echo
+2020-03-09 14:36:53,617 DEBUG    errbot.plugins.Webserver  Logger for plugin initialized...
+2020-03-09 14:36:53,668 DEBUG    errbot.bootstrap          Start serving commands from the slack backend.
+2020-03-09 14:36:53,725 INFO     errbot.backends.slack     Verifying authentication token
+2020-03-09 14:36:53,748 DEBUG    urllib3.connectionpool    Starting new HTTPS connection (1): slack.com:443
+2020-03-09 14:36:54,886 DEBUG    urllib3.connectionpool    https://slack.com:443 "POST /api/auth.test HTTP/1.1" 200 142
+2020-03-09 14:36:54,910 DEBUG    errbot.backends.slack     Token accepted
+2020-03-09 14:36:54,930 INFO     errbot.backends.slack     Connecting to Slack real-time-messaging API
+2020-03-09 14:36:54,952 DEBUG    urllib3.connectionpool    Starting new HTTPS connection (1): slack.com:443
+2020-03-09 14:36:56,083 DEBUG    urllib3.connectionpool    https://slack.com:443 "POST /api/rtm.start HTTP/1.1" 200 6340
+2020-03-09 14:36:56,176 DEBUG    websocket                 Connecting proxy...
+2020-03-09 14:36:56,886 DEBUG    root                      RTM connected
+2020-03-09 14:36:56,887 INFO     errbot.backends.slack     Connected
+2020-03-09 14:36:56,892 DEBUG    errbot.backends.slack     Converted bot_alt_prefixes: @errbot
+2020-03-09 14:36:57,061 DEBUG    errbot.backends.slack     Processing slack event: {'type': 'hello'}
+2020-03-09 14:36:57,061 INFO     errbot.core               Activate internal commands
+2020-03-09 14:36:57,063 INFO     errbot.plugin_manager     Activate bot plugins...
+2020-03-09 14:36:57,067 INFO     errbot.plugin_manager     Activate plugin: Example.
+2020-03-09 14:36:57,073 DEBUG    errbot.templating         No templates directory found for this plugin [Looking for C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\plugins\err-example\templates]
+2020-03-09 14:36:57,074 DEBUG    errbot.botplugin          Init storage for Example.
+2020-03-09 14:36:57,075 DEBUG    errbot.storage            Opening storage 'Example'
+2020-03-09 14:36:57,079 DEBUG    errbot.storage.shelf      Open shelf storage C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\data\Example.db
+2020-03-09 14:36:57,100 DEBUG    errbot.core               Adding command : tryme -> tryme.
+2020-03-09 14:36:57,101 INFO     errbot.core_plugins.wsview Checking Example for webhooks
+2020-03-09 14:36:57,103 INFO     errbot.plugin_manager     Activate plugin: ACLs.
+2020-03-09 14:36:57,109 DEBUG    errbot.templating         Templates directory found for this plugin [c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\core_plugins\templates]
+2020-03-09 14:36:57,109 DEBUG    errbot.botplugin          Init storage for ACLs.
+2020-03-09 14:36:57,111 DEBUG    errbot.storage            Opening storage 'ACLs'
+2020-03-09 14:36:57,116 DEBUG    errbot.storage.shelf      Open shelf storage C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\data\ACLs.db
+2020-03-09 14:36:57,137 DEBUG    errbot.core               Adding command filter: acls
+2020-03-09 14:36:57,139 INFO     errbot.core_plugins.wsview Checking ACLS for webhooks
+2020-03-09 14:36:57,142 INFO     errbot.plugin_manager     Activate plugin: Backup.
+2020-03-09 14:36:57,146 DEBUG    errbot.templating         Templates directory found for this plugin [c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\core_plugins\templates]
+2020-03-09 14:36:57,147 DEBUG    errbot.botplugin          Init storage for Backup.
+2020-03-09 14:36:57,148 DEBUG    errbot.storage            Opening storage 'Backup'
+2020-03-09 14:36:57,152 DEBUG    errbot.storage.shelf      Open shelf storage C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\data\Backup.db
+2020-03-09 14:36:57,176 DEBUG    errbot.core               Adding command : backup -> backup.
+2020-03-09 14:36:57,177 INFO     errbot.core_plugins.wsview Checking Backup for webhooks
+2020-03-09 14:36:57,179 INFO     errbot.plugin_manager     Activate plugin: ChatRoom.
+2020-03-09 14:36:57,184 DEBUG    errbot.templating         Templates directory found for this plugin [c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\core_plugins\templates]
+2020-03-09 14:36:57,185 DEBUG    errbot.botplugin          Init storage for ChatRoom.
+2020-03-09 14:36:57,185 DEBUG    errbot.storage            Opening storage 'ChatRoom'
+2020-03-09 14:36:57,193 DEBUG    errbot.storage.shelf      Open shelf storage C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\data\ChatRoom.db
+2020-03-09 14:36:57,215 DEBUG    errbot.core               Adding command : room_create -> room_create.
+2020-03-09 14:36:57,216 DEBUG    errbot.core               Adding command : room_destroy -> room_destroy.
+2020-03-09 14:36:57,218 DEBUG    errbot.core               Adding command : room_invite -> room_invite.
+2020-03-09 14:36:57,221 DEBUG    errbot.core               Adding command : room_join -> room_join.
+2020-03-09 14:36:57,223 DEBUG    errbot.core               Adding command : room_leave -> room_leave.
+2020-03-09 14:36:57,224 DEBUG    errbot.core               Adding command : room_list -> room_list.
+2020-03-09 14:36:57,224 DEBUG    errbot.core               Adding command : room_occupants -> room_occupants.
+2020-03-09 14:36:57,225 DEBUG    errbot.core               Adding command : room_topic -> room_topic.
+2020-03-09 14:36:57,227 INFO     errbot.core_plugins.wsview Checking ChatRoom for webhooks
+2020-03-09 14:36:57,231 INFO     errbot.plugins.ChatRoom   Connecting bot chatrooms
+2020-03-09 14:36:57,231 INFO     errbot.plugin_manager     Activate plugin: CommandNotFoundFilter.
+2020-03-09 14:36:57,234 DEBUG    errbot.templating         Templates directory found for this plugin [c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\core_plugins\templates]
+2020-03-09 14:36:57,235 DEBUG    errbot.botplugin          Init storage for CommandNotFoundFilter.
+2020-03-09 14:36:57,235 DEBUG    errbot.storage            Opening storage 'CommandNotFoundFilter'
+2020-03-09 14:36:57,242 DEBUG    errbot.storage.shelf      Open shelf storage C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\data\CommandNotFoundFilter.db
+2020-03-09 14:36:57,263 DEBUG    errbot.core               Adding command filter: cnf_filter
+2020-03-09 14:36:57,264 INFO     errbot.core_plugins.wsview Checking CommandNotFoundFilter for webhooks
+2020-03-09 14:36:57,266 INFO     errbot.plugin_manager     Activate plugin: Flows.
+2020-03-09 14:36:57,270 DEBUG    errbot.templating         Templates directory found for this plugin [c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\core_plugins\templates]
+2020-03-09 14:36:57,272 DEBUG    errbot.botplugin          Init storage for Flows.
+2020-03-09 14:36:57,273 DEBUG    errbot.storage            Opening storage 'Flows'
+2020-03-09 14:36:57,280 DEBUG    errbot.storage.shelf      Open shelf storage C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\data\Flows.db
+2020-03-09 14:36:57,311 DEBUG    errbot.core               Adding command : flows_kill -> flows_kill.
+2020-03-09 14:36:57,312 DEBUG    errbot.core               Adding command : flows_list -> flows_list.
+2020-03-09 14:36:57,314 DEBUG    errbot.core               Adding command : flows_show -> flows_show.
+2020-03-09 14:36:57,317 DEBUG    errbot.core               Adding command : flows_start -> flows_start.
+2020-03-09 14:36:57,318 DEBUG    errbot.core               Adding command : flows_status -> flows_status.
+2020-03-09 14:36:57,319 DEBUG    errbot.core               Adding command : flows_stop -> flows_stop.
+2020-03-09 14:36:57,320 INFO     errbot.core_plugins.wsview Checking Flows for webhooks
+2020-03-09 14:36:57,324 INFO     errbot.plugin_manager     Activate plugin: Health.
+2020-03-09 14:36:57,330 DEBUG    errbot.templating         Templates directory found for this plugin [c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\core_plugins\templates]
+2020-03-09 14:36:57,331 DEBUG    errbot.botplugin          Init storage for Health.
+2020-03-09 14:36:57,332 DEBUG    errbot.storage            Opening storage 'Health'
+2020-03-09 14:36:57,343 DEBUG    errbot.storage.shelf      Open shelf storage C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\data\Health.db
+2020-03-09 14:36:57,372 DEBUG    errbot.core               Adding command : restart -> restart.
+2020-03-09 14:36:57,372 DEBUG    errbot.core               Adding command : shutdown -> shutdown.
+2020-03-09 14:36:57,375 DEBUG    errbot.core               Adding command : status -> status.
+2020-03-09 14:36:57,378 DEBUG    errbot.core               Adding command : status_gc -> status_gc.
+2020-03-09 14:36:57,379 DEBUG    errbot.core               Adding command : status_load -> status_load.
+2020-03-09 14:36:57,380 DEBUG    errbot.core               Adding command : status_plugins -> status_plugins.
+2020-03-09 14:36:57,381 DEBUG    errbot.core               Adding command : uptime -> uptime.
+2020-03-09 14:36:57,382 INFO     errbot.core_plugins.wsview Checking Health for webhooks
+2020-03-09 14:36:57,385 INFO     errbot.plugin_manager     Activate plugin: Help.
+2020-03-09 14:36:57,392 DEBUG    errbot.templating         Templates directory found for this plugin [c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\core_plugins\templates]
+2020-03-09 14:36:57,392 DEBUG    errbot.botplugin          Init storage for Help.
+2020-03-09 14:36:57,395 DEBUG    errbot.storage            Opening storage 'Help'
+2020-03-09 14:36:57,400 DEBUG    errbot.storage.shelf      Open shelf storage C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\data\Help.db
+2020-03-09 14:36:57,427 DEBUG    errbot.core               Adding command : about -> about.
+2020-03-09 14:36:57,427 DEBUG    errbot.core               Adding command : apropos -> apropos.
+2020-03-09 14:36:57,430 DEBUG    errbot.core               Adding command : help -> help.
+2020-03-09 14:36:57,434 INFO     errbot.core_plugins.wsview Checking Help for webhooks
+2020-03-09 14:36:57,437 INFO     errbot.plugin_manager     Activate plugin: Plugins.
+2020-03-09 14:36:57,446 DEBUG    errbot.templating         Templates directory found for this plugin [c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\core_plugins\templates]
+2020-03-09 14:36:57,447 DEBUG    errbot.botplugin          Init storage for Plugins.
+2020-03-09 14:36:57,447 DEBUG    errbot.storage            Opening storage 'Plugins'
+2020-03-09 14:36:57,451 DEBUG    errbot.storage.shelf      Open shelf storage C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\data\Plugins.db
+2020-03-09 14:36:57,481 DEBUG    errbot.core               Adding command : plugin_activate -> plugin_activate.
+2020-03-09 14:36:57,482 DEBUG    errbot.core               Adding command : plugin_blacklist -> plugin_blacklist.
+2020-03-09 14:36:57,484 DEBUG    errbot.core               Adding command : plugin_config -> plugin_config.
+2020-03-09 14:36:57,484 DEBUG    errbot.core               Adding command : plugin_deactivate -> plugin_deactivate.
+2020-03-09 14:36:57,488 DEBUG    errbot.core               Adding command : plugin_info -> plugin_info.
+2020-03-09 14:36:57,490 DEBUG    errbot.core               Adding command : plugin_reload -> plugin_reload.
+2020-03-09 14:36:57,492 DEBUG    errbot.core               Adding command : plugin_unblacklist -> plugin_unblacklist.
+2020-03-09 14:36:57,495 DEBUG    errbot.core               Adding command : repos -> repos.
+2020-03-09 14:36:57,497 DEBUG    errbot.core               Adding command : repos_install -> repos_install.
+2020-03-09 14:36:57,498 DEBUG    errbot.core               Adding command : repos_search -> repos_search.
+2020-03-09 14:36:57,499 DEBUG    errbot.core               Adding command : repos_uninstall -> repos_uninstall.
+2020-03-09 14:36:57,500 DEBUG    errbot.core               Adding command : repos_update -> repos_update.
+2020-03-09 14:36:57,502 INFO     errbot.core_plugins.wsview Checking Plugins for webhooks
+2020-03-09 14:36:57,513 INFO     errbot.plugin_manager     Activate plugin: TextCmds.
+2020-03-09 14:36:57,516 DEBUG    errbot.templating         Templates directory found for this plugin [c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\core_plugins\templates]
+2020-03-09 14:36:57,517 INFO     errbot.core_plugins.wsview Checking TextModeCmds for webhooks
+2020-03-09 14:36:57,518 INFO     errbot.plugin_manager     Activate plugin: Utils.
+2020-03-09 14:36:57,522 DEBUG    errbot.templating         Templates directory found for this plugin [c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\core_plugins\templates]
+2020-03-09 14:36:57,524 DEBUG    errbot.botplugin          Init storage for Utils.
+2020-03-09 14:36:57,525 DEBUG    errbot.storage            Opening storage 'Utils'
+2020-03-09 14:36:57,528 DEBUG    errbot.storage.shelf      Open shelf storage C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\data\Utils.db
+2020-03-09 14:36:57,549 DEBUG    errbot.core               Adding command : echo -> echo.
+2020-03-09 14:36:57,549 DEBUG    errbot.core               Adding command : history -> history.
+2020-03-09 14:36:57,551 DEBUG    errbot.core               Adding command : log_tail -> log_tail.
+2020-03-09 14:36:57,554 DEBUG    errbot.core               Adding command : render_test -> render_test.
+2020-03-09 14:36:57,556 DEBUG    errbot.core               Adding command : whoami -> whoami.
+2020-03-09 14:36:57,557 INFO     errbot.core_plugins.wsview Checking Utils for webhooks
+2020-03-09 14:36:57,558 INFO     errbot.plugin_manager     Activate plugin: VersionChecker.
+2020-03-09 14:36:57,561 DEBUG    errbot.templating         Templates directory found for this plugin [c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\core_plugins\templates]
+2020-03-09 14:36:57,563 DEBUG    errbot.plugins.VersionChecker Checking version in background.
+2020-03-09 14:36:57,564 DEBUG    errbot.botplugin          Programming the polling of version_check every 86400 seconds with args [] and kwargs {}
+2020-03-09 14:36:57,568 DEBUG    errbot.botplugin          Init storage for VersionChecker.
+2020-03-09 14:36:57,569 DEBUG    urllib3.connectionpool    Starting new HTTPS connection (1): errbot-1127.appspot.com:443
+2020-03-09 14:36:57,571 DEBUG    errbot.storage            Opening storage 'VersionChecker'
+2020-03-09 14:36:57,578 DEBUG    errbot.storage.shelf      Open shelf storage C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\data\VersionChecker.db
+2020-03-09 14:36:57,596 INFO     errbot.core_plugins.wsview Checking VersionChecker for webhooks
+2020-03-09 14:36:57,597 INFO     errbot.plugin_manager     Activate plugin: Webserver.
+2020-03-09 14:36:57,601 DEBUG    errbot.templating         Templates directory found for this plugin [c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\core_plugins\templates]
+2020-03-09 14:36:57,601 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2020-03-09 14:36:57,602 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2020-03-09 14:36:57,603 INFO     errbot.core_plugins.wsview Webhook routing echo
+2020-03-09 14:36:57,606 DEBUG    errbot.plugin_manager     Activate flow plugins ...
+2020-03-09 14:36:57,608 INFO     errbot.core               Notifying connection to all the plugins...
+2020-03-09 14:36:57,610 DEBUG    errbot.core               Trigger callback_connect on Example.
+2020-03-09 14:36:57,611 DEBUG    errbot.core               Trigger callback_connect on ACLS.
+2020-03-09 14:36:57,611 DEBUG    errbot.core               Trigger callback_connect on Backup.
+2020-03-09 14:36:57,612 DEBUG    errbot.core               Trigger callback_connect on ChatRoom.
+2020-03-09 14:36:57,613 INFO     errbot.plugins.ChatRoom   Connecting bot chatrooms
+2020-03-09 14:36:57,614 DEBUG    errbot.core               Trigger callback_connect on CommandNotFoundFilter.
+2020-03-09 14:36:57,614 DEBUG    errbot.core               Trigger callback_connect on Flows.
+2020-03-09 14:36:57,615 DEBUG    errbot.core               Trigger callback_connect on Health.
+2020-03-09 14:36:57,616 DEBUG    errbot.core               Trigger callback_connect on Help.
+2020-03-09 14:36:57,619 DEBUG    errbot.core               Trigger callback_connect on Plugins.
+2020-03-09 14:36:57,621 DEBUG    errbot.core               Trigger callback_connect on Utils.
+2020-03-09 14:36:57,623 DEBUG    errbot.core               Trigger callback_connect on VersionChecker.
+2020-03-09 14:36:57,623 INFO     errbot.core               Plugin activation done.
+2020-03-09 14:36:57,624 DEBUG    errbot.core               Triggering callback_presence on Example.
+2020-03-09 14:36:57,625 DEBUG    errbot.core               Triggering callback_presence on ACLs.
+2020-03-09 14:36:57,625 DEBUG    errbot.core               Triggering callback_presence on Backup.
+2020-03-09 14:36:57,626 DEBUG    errbot.core               Triggering callback_presence on ChatRoom.
+2020-03-09 14:36:57,627 DEBUG    errbot.core               Triggering callback_presence on CommandNotFoundFilter.
+2020-03-09 14:36:57,629 DEBUG    errbot.core               Triggering callback_presence on Flows.
+2020-03-09 14:36:57,632 DEBUG    errbot.core               Triggering callback_presence on Health.
+2020-03-09 14:36:57,632 DEBUG    errbot.core               Triggering callback_presence on Help.
+2020-03-09 14:36:57,633 DEBUG    errbot.core               Triggering callback_presence on Plugins.
+2020-03-09 14:36:57,634 DEBUG    errbot.core               Triggering callback_presence on Utils.
+2020-03-09 14:36:57,634 DEBUG    errbot.core               Triggering callback_presence on VersionChecker.
+2020-03-09 14:36:58,616 DEBUG    urllib3.connectionpool    https://errbot-1127.appspot.com:443 "GET /?errbot=6.1.2&python=3.7.4 HTTP/1.1" 200 5
+2020-03-09 14:36:58,621 DEBUG    errbot.plugins.VersionChecker Tested current Errbot version and it is 6.1.2
+2020-03-09 14:37:02,945 DEBUG    errbot.backends.slack     No event handler available for user_typing, ignoring this event
+2020-03-09 14:37:07,172 DEBUG    errbot.backends.slack     Processing slack event: {'client_msg_id': '3292cfc2-3f6d-4d2a-b8da-8acfa2f0838e', 'suppress_notification': False, 'type': 'message', 'text': '!tryme', 'user': 'UUM7A1CCS', 'team': 'TUPTRJ75F', 'blocks': [{'type': 'rich_text', 'block_id': 'kh7', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': '!tryme'}]}]}], 'source_team': 'TUPTRJ75F', 'user_team': 'TUPTRJ75F', 'channel': 'CV01LCXPF', 'event_ts': '1583761026.001800', 'ts': '1583761026.001800'}
+2020-03-09 14:37:07,175 DEBUG    errbot.backends.slack     Saw an event: {'blocks': [{'block_id': 'kh7',
+             'elements': [{'elements': [{'text': '!tryme', 'type': 'text'}],
+                           'type': 'rich_text_section'}],
+             'type': 'rich_text'}],
+ 'channel': 'CV01LCXPF',
+ 'client_msg_id': '3292cfc2-3f6d-4d2a-b8da-8acfa2f0838e',
+ 'event_ts': '1583761026.001800',
+ 'source_team': 'TUPTRJ75F',
+ 'suppress_notification': False,
+ 'team': 'TUPTRJ75F',
+ 'text': '!tryme',
+ 'ts': '1583761026.001800',
+ 'type': 'message',
+ 'user': 'UUM7A1CCS',
+ 'user_team': 'TUPTRJ75F'}
+2020-03-09 14:37:07,176 DEBUG    errbot.backends.slack     Escaped IDs event text: !tryme
+2020-03-09 14:37:07,179 DEBUG    errbot.core               *** frm = #chatops-errbot/fabio.morooka
+2020-03-09 14:37:07,180 DEBUG    errbot.core               *** username = @fabio.morooka
+2020-03-09 14:37:07,181 DEBUG    errbot.core               *** text = !tryme
+2020-03-09 14:37:07,182 DEBUG    errbot.plugins.ACLs       Check tryme for ACLs.
+2020-03-09 14:37:07,183 INFO     errbot.plugins.ACLs       Matching ACL {} against username @fabio.morooka for command Example:tryme.
+2020-03-09 14:37:07,186 DEBUG    errbot.plugins.ACLs       Check if tryme is admin only command.
+2020-03-09 14:37:07,188 INFO     errbot.core               Processing command "tryme" with parameters "" from #chatops-errbot/fabio.morooka
+2020-03-09 14:37:07,189 DEBUG    errbot.core               Triggering callback_message on Example.
+2020-03-09 14:37:07,190 DEBUG    errbot.flow               Test if the command tryme is a trigger for an inflight flow ...
+2020-03-09 14:37:07,192 DEBUG    errbot.core               Triggering callback_message on ACLs.
+2020-03-09 14:37:07,193 DEBUG    errbot.flow               None matched.
+2020-03-09 14:37:07,194 DEBUG    errbot.core               Triggering callback_message on Backup.
+2020-03-09 14:37:07,197 DEBUG    errbot.backends.slack     Sending channel message to chatops-errbot (CV01LCXPF).
+2020-03-09 14:37:07,199 DEBUG    errbot.core               Triggering callback_message on ChatRoom.
+2020-03-09 14:37:07,201 DEBUG    errbot.backends.slack     Message size: 12.
+2020-03-09 14:37:07,202 DEBUG    errbot.core               Triggering callback_message on CommandNotFoundFilter.
+2020-03-09 14:37:07,207 DEBUG    errbot.core               Triggering callback_message on Flows.
+2020-03-09 14:37:07,211 DEBUG    errbot.core               Triggering callback_message on Health.
+2020-03-09 14:37:07,211 DEBUG    errbot.core               Triggering callback_message on Help.
+2020-03-09 14:37:07,212 DEBUG    urllib3.connectionpool    Starting new HTTPS connection (1): slack.com:443
+2020-03-09 14:37:07,212 DEBUG    errbot.core               Triggering callback_message on Plugins.
+2020-03-09 14:37:07,214 DEBUG    errbot.core               Triggering callback_message on Utils.
+2020-03-09 14:37:07,215 DEBUG    errbot.core               Triggering callback_message on VersionChecker.
+2020-03-09 14:37:08,262 DEBUG    errbot.backends.slack     Processing slack event: {'bot_id': 'BV0172G56', 'suppress_notification': False, 'type': 'message', 'text': 'It _works_ !', 'user': 'UV01S8D45', 'team': 'TUPTRJ75F', 'bot_profile': {'id': 'BV0172G56', 'deleted': False, 'name': 'bot', 'updated': 1583510362, 'app_id': 'A0F7YS25R', 'icons': {'image_36': 'https://a.slack-edge.com/80588/img/services/bots_36.png', 'image_48': 'https://a.slack-edge.com/80588/img/plugins/bot/service_48.png', 'image_72': 'https://a.slack-edge.com/80588/img/services/bots_72.png'}, 'team_id': 'TUPTRJ75F'}, 'source_team': 'TUPTRJ75F', 'user_team': 'TUPTRJ75F', 'channel': 'CV01LCXPF', 'event_ts': '1583761027.001900', 'ts': '1583761027.001900'}
+2020-03-09 14:37:08,264 DEBUG    errbot.backends.slack     Saw an event: {'bot_id': 'BV0172G56',
+ 'bot_profile': {'app_id': 'A0F7YS25R',
+                 'deleted': False,
+                 'icons': {'image_36': 'https://a.slack-edge.com/80588/img/services/bots_36.png',
+                           'image_48': 'https://a.slack-edge.com/80588/img/plugins/bot/service_48.png',
+                           'image_72': 'https://a.slack-edge.com/80588/img/services/bots_72.png'},
+                 'id': 'BV0172G56',
+                 'name': 'bot',
+                 'team_id': 'TUPTRJ75F',
+                 'updated': 1583510362},
+ 'channel': 'CV01LCXPF',
+ 'event_ts': '1583761027.001900',
+ 'source_team': 'TUPTRJ75F',
+ 'suppress_notification': False,
+ 'team': 'TUPTRJ75F',
+ 'text': 'It _works_ !',
+ 'ts': '1583761027.001900',
+ 'type': 'message',
+ 'user': 'UV01S8D45',
+ 'user_team': 'TUPTRJ75F'}
+2020-03-09 14:37:08,265 DEBUG    errbot.backends.slack     Escaped IDs event text: It _works_ !
+2020-03-09 14:37:08,268 DEBUG    errbot.core               Ignoring message from self.
+2020-03-09 14:37:08,324 DEBUG    urllib3.connectionpool    https://slack.com:443 "POST /api/chat.postMessage HTTP/1.1" 200 313
+2020-03-09 14:37:08,330 DEBUG    errbot.flow               Test if the command tryme is a trigger for an inflight flow ...
+2020-03-09 14:37:08,330 DEBUG    errbot.flow               None matched.
+2020-03-09 14:37:08,331 DEBUG    errbot.flow               Test if the command tryme is an auto-trigger for any flow ...
+2020-03-09 14:42:58,590 DEBUG    errbot.backends.slack     No event handler available for user_typing, ignoring this event
+2020-03-09 14:43:00,549 DEBUG    errbot.backends.slack     Processing slack event: {'client_msg_id': '1faf5902-5ea9-4c52-bccc-c7c0e8618c6e', 'suppress_notification': False, 'type': 'message', 'text': '!hrlp7', 'user': 'UUM7A1CCS', 'team': 'TUPTRJ75F', 'blocks': [{'type': 'rich_text', 'block_id': 'j6Jd', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': '!hrlp7'}]}]}], 'source_team': 'TUPTRJ75F', 'user_team': 'TUPTRJ75F', 'channel': 'CV01LCXPF', 'event_ts': '1583761379.002100', 'ts': '1583761379.002100'}
+2020-03-09 14:43:00,551 DEBUG    errbot.backends.slack     Saw an event: {'blocks': [{'block_id': 'j6Jd',
+             'elements': [{'elements': [{'text': '!hrlp7', 'type': 'text'}],
+                           'type': 'rich_text_section'}],
+             'type': 'rich_text'}],
+ 'channel': 'CV01LCXPF',
+ 'client_msg_id': '1faf5902-5ea9-4c52-bccc-c7c0e8618c6e',
+ 'event_ts': '1583761379.002100',
+ 'source_team': 'TUPTRJ75F',
+ 'suppress_notification': False,
+ 'team': 'TUPTRJ75F',
+ 'text': '!hrlp7',
+ 'ts': '1583761379.002100',
+ 'type': 'message',
+ 'user': 'UUM7A1CCS',
+ 'user_team': 'TUPTRJ75F'}
+2020-03-09 14:43:00,552 DEBUG    errbot.backends.slack     Escaped IDs event text: !hrlp7
+2020-03-09 14:43:00,556 DEBUG    errbot.core               *** frm = #chatops-errbot/fabio.morooka
+2020-03-09 14:43:00,557 DEBUG    errbot.core               *** username = @fabio.morooka
+2020-03-09 14:43:00,557 DEBUG    errbot.core               *** text = !hrlp7
+2020-03-09 14:43:00,558 DEBUG    errbot.core               Command not found
+2020-03-09 14:43:00,559 ERROR    errbot.core               Exception in a command filter command.
+Traceback (most recent call last):
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\core.py", line 332, in process_message
+    reply = cmd_filter(msg, cmd, args, False, emptycmd=True)
+  File "c:\users\a784292\appdata\local\continuum\anaconda3\lib\site-packages\errbot\core_plugins\cnf_filter.py", line 29, in cnf_filter
+    for prefix in self.bot_config.BOT_ALT_PREFIXES + (self.bot_config.BOT_PREFIX,):
+TypeError: can only concatenate str (not "tuple") to str
+2020-03-09 14:43:00,567 DEBUG    errbot.core               Triggering callback_message on Example.
+2020-03-09 14:43:00,568 DEBUG    errbot.core               Triggering callback_message on ACLs.
+2020-03-09 14:43:00,569 DEBUG    errbot.core               Triggering callback_message on Backup.
+2020-03-09 14:43:00,570 DEBUG    errbot.core               Triggering callback_message on ChatRoom.
+2020-03-09 14:43:00,570 DEBUG    errbot.core               Triggering callback_message on CommandNotFoundFilter.
+2020-03-09 14:43:00,575 DEBUG    errbot.core               Triggering callback_message on Flows.
+2020-03-09 14:43:00,577 DEBUG    errbot.core               Triggering callback_message on Health.
+2020-03-09 14:43:00,578 DEBUG    errbot.core               Triggering callback_message on Help.
+2020-03-09 14:43:00,579 DEBUG    errbot.core               Triggering callback_message on Plugins.
+2020-03-09 14:43:00,580 DEBUG    errbot.core               Triggering callback_message on Utils.
+2020-03-09 14:43:00,580 DEBUG    errbot.core               Triggering callback_message on VersionChecker.
+2020-03-09 14:43:01,169 DEBUG    errbot.backends.slack     No event handler available for user_typing, ignoring this event
+2020-03-09 14:43:02,748 DEBUG    errbot.backends.slack     Processing slack event: {'client_msg_id': '55aab38e-f59f-4389-aed9-dfcc54155d2d', 'suppress_notification': False, 'type': 'message', 'text': '!help', 'user': 'UUM7A1CCS', 'team': 'TUPTRJ75F', 'blocks': [{'type': 'rich_text', 'block_id': '83Q', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': '!help'}]}]}], 'source_team': 'TUPTRJ75F', 'user_team': 'TUPTRJ75F', 'channel': 'CV01LCXPF', 'event_ts': '1583761381.002300', 'ts': '1583761381.002300'}
+2020-03-09 14:43:02,750 DEBUG    errbot.backends.slack     Saw an event: {'blocks': [{'block_id': '83Q',
+             'elements': [{'elements': [{'text': '!help', 'type': 'text'}],
+                           'type': 'rich_text_section'}],
+             'type': 'rich_text'}],
+ 'channel': 'CV01LCXPF',
+ 'client_msg_id': '55aab38e-f59f-4389-aed9-dfcc54155d2d',
+ 'event_ts': '1583761381.002300',
+ 'source_team': 'TUPTRJ75F',
+ 'suppress_notification': False,
+ 'team': 'TUPTRJ75F',
+ 'text': '!help',
+ 'ts': '1583761381.002300',
+ 'type': 'message',
+ 'user': 'UUM7A1CCS',
+ 'user_team': 'TUPTRJ75F'}
+2020-03-09 14:43:02,755 DEBUG    errbot.backends.slack     Escaped IDs event text: !help
+2020-03-09 14:43:02,756 DEBUG    errbot.core               *** frm = #chatops-errbot/fabio.morooka
+2020-03-09 14:43:02,757 DEBUG    errbot.core               *** username = @fabio.morooka
+2020-03-09 14:43:02,758 DEBUG    errbot.core               *** text = !help
+2020-03-09 14:43:02,759 DEBUG    errbot.plugins.ACLs       Check help for ACLs.
+2020-03-09 14:43:02,759 INFO     errbot.plugins.ACLs       Matching ACL {} against username @fabio.morooka for command Help:help.
+2020-03-09 14:43:02,760 DEBUG    errbot.plugins.ACLs       Check if help is admin only command.
+2020-03-09 14:43:02,761 INFO     errbot.core               Processing command "help" with parameters "" from #chatops-errbot/fabio.morooka
+2020-03-09 14:43:02,766 DEBUG    errbot.core               Triggering callback_message on Example.
+2020-03-09 14:43:02,766 DEBUG    errbot.flow               Test if the command help is a trigger for an inflight flow ...
+2020-03-09 14:43:02,767 DEBUG    errbot.core               Triggering callback_message on ACLs.
+2020-03-09 14:43:02,768 DEBUG    errbot.flow               None matched.
+2020-03-09 14:43:02,769 DEBUG    errbot.core               Triggering callback_message on Backup.
+2020-03-09 14:43:02,773 DEBUG    errbot.backends.slack     Sending channel message to chatops-errbot (CV01LCXPF).
+2020-03-09 14:43:02,773 DEBUG    errbot.core               Triggering callback_message on ChatRoom.
+2020-03-09 14:43:02,789 DEBUG    errbot.core               Triggering callback_message on CommandNotFoundFilter.
+2020-03-09 14:43:02,792 DEBUG    errbot.backends.slack     Message size: 3289.
+2020-03-09 14:43:02,793 DEBUG    errbot.core               Triggering callback_message on Flows.
+2020-03-09 14:43:02,794 DEBUG    errbot.core               Triggering callback_message on Health.
+2020-03-09 14:43:02,799 DEBUG    errbot.core               Triggering callback_message on Help.
+2020-03-09 14:43:02,800 DEBUG    errbot.core               Triggering callback_message on Plugins.
+2020-03-09 14:43:02,800 DEBUG    urllib3.connectionpool    Starting new HTTPS connection (1): slack.com:443
+2020-03-09 14:43:02,801 DEBUG    errbot.core               Triggering callback_message on Utils.
+2020-03-09 14:43:02,803 DEBUG    errbot.core               Triggering callback_message on VersionChecker.
+2020-03-09 14:43:04,131 DEBUG    errbot.backends.slack     Processing slack event: {'bot_id': 'BV0172G56', 'suppress_notification': False, 'type': 'message', 'text': '_All commands_\n\n *Backup*\n _Backup related commands._\n• *!backup* - Backup everything.\n *ChatRoom*\n _This is a basic implementation of a chatroom_\n• *!room create* - Create a chatroom.\n• *!room destroy* - Destroy a chatroom.\n• *!room invite* - Invite one or more people into a chatroom.\n• *!room join* - Join (creating it first if needed) a chatroom.\n• *!room leave* - Leave a chatroom.\n• *!room list* - List chatrooms the bot has joined.\n• *!room occupants* - List the occupants in a given chatroom.\n• *!room topic* - Get or set the topic for a room.\n *Example*\n _This is a very basic plugin to try out your new installation and get you started.\n    Feel free to tweak me to experiment with Errbot.\n    You can find me in your init directory in the subdirectory plugins._\n• *!tryme* - Execute to check if Errbot responds to command.\n *Flows*\n _Management commands related to flows / conversations._\n• *!flows kill* - usage: flows_kill [-h] user flow_name\n• *!flows list* - Displays the list of setup flows.\n• *!flows show* - Shows the structure of a flow.\n• *!flows start* - Manually start a flow within the context of the calling user.\n• *!flows status* - Displays the list of started flows.\n• *!flows stop* - Stop flows you are in.\n *Health*\n _Core plugin for bot lifecycle and health related commands._\n• *!restart* - Restart the bot.\n• *!shutdown* - usage: shutdown [-h] [--kill] [--confirm]\n• *!status* - If I am alive I should be able to respond to this one\n• *!status gc* - shows the garbage collection details\n• *!status load* - shows the load status\n• *!status plugins* - shows the plugin status\n• *!uptime* - Return the uptime of the bot\n *Help*\n _Core plugin of help related functions._\n• *!about* - Return information about this Errbot instance and version\n• *!apropos* - Returns a help string listing available options.\n• *!help* - Returns a help string listing available options.\n *Plugins*\n _Commands to manage the plugins of the bot by chatting._\n• *!plugin activate* - activate a plugin. [calls .activate() on the plugin]\n• *!plugin blacklist* - Blacklist a plugin so that it will not be loaded automatically during bot sta...\n• *!plugin config* - configure or get the configuration / configuration template for a specific pl...\n• *!plugin deactivate* - deactivate a plugin. [calls .deactivate on the plugin]\n• *!plugin info* - Gives you a more technical information about a specific plugin.\n• *!plugin reload* - reload a plugin: reload the code of the plugin leaving the activation status ...\n• *!plugin unblacklist* - Remove a plugin from the blacklist\n• *!repos* - list the current active plugin repositories\n• *!repos install* - install a plugin repository from the given source or a known public repo (see...\n• *!repos search* - Searches the repo index.\n• *!repos uninstall* - uninstall a plugin repository by name.\n• *!repos update* - update the bot and/or plugins\n *Utils*\n _Core Errbot utils commands._\n• *!echo* - A simple echo command. Useful for encoding tests etc ...\n• *!history* - display the command history\n• *!log tail* - Display a tail of the log of n lines or 40 by default\n• *!render test* - Tests / showcases the markdown rendering on your current backend\n• *!whoami* - A simple command echoing the details of your identifier. Useful to debug iden...', 'user': 'UV01S8D45', 'team': 'TUPTRJ75F', 'bot_profile': {'id': 'BV0172G56', 'deleted': False, 'name': 'bot', 'updated': 1583510362, 'app_id': 'A0F7YS25R', 'icons': {'image_36': 'https://a.slack-edge.com/80588/img/services/bots_36.png', 'image_48': 'https://a.slack-edge.com/80588/img/plugins/bot/service_48.png', 'image_72': 'https://a.slack-edge.com/80588/img/services/bots_72.png'}, 'team_id': 'TUPTRJ75F'}, 'source_team': 'TUPTRJ75F', 'user_team': 'TUPTRJ75F', 'channel': 'CV01LCXPF', 'event_ts': '1583761383.002400', 'ts': '1583761383.002400'}
+2020-03-09 14:43:04,135 DEBUG    errbot.backends.slack     Saw an event: {'bot_id': 'BV0172G56',
+ 'bot_profile': {'app_id': 'A0F7YS25R',
+                 'deleted': False,
+                 'icons': {'image_36': 'https://a.slack-edge.com/80588/img/services/bots_36.png',
+                           'image_48': 'https://a.slack-edge.com/80588/img/plugins/bot/service_48.png',
+                           'image_72': 'https://a.slack-edge.com/80588/img/services/bots_72.png'},
+                 'id': 'BV0172G56',
+                 'name': 'bot',
+                 'team_id': 'TUPTRJ75F',
+                 'updated': 1583510362},
+ 'channel': 'CV01LCXPF',
+ 'event_ts': '1583761383.002400',
+ 'source_team': 'TUPTRJ75F',
+ 'suppress_notification': False,
+ 'team': 'TUPTRJ75F',
+ 'text': '_All commands_\n'
+         '\n'
+         ' *Backup*\n'
+         ' _Backup related commands._\n'
+         '• *!backup* - Backup everything.\n'
+         ' *ChatRoom*\n'
+         ' _This is a basic implementation of a chatroom_\n'
+         '• *!room create* - Create a chatroom.\n'
+         '• *!room destroy* - Destroy a chatroom.\n'
+         '• *!room invite* - Invite one or more people into a chatroom.\n'
+         '• *!room join* - Join (creating it first if needed) a chatroom.\n'
+         '• *!room leave* - Leave a chatroom.\n'
+         '• *!room list* - List chatrooms the bot has joined.\n'
+         '• *!room occupants* - List the occupants in a given chatroom.\n'
+         '• *!room topic* - Get or set the topic for a room.\n'
+         ' *Example*\n'
+         ' _This is a very basic plugin to try out your new installation and '
+         'get you started.\n'
+         '    Feel free to tweak me to experiment with Errbot.\n'
+         '    You can find me in your init directory in the subdirectory '
+         'plugins._\n'
+         '• *!tryme* - Execute to check if Errbot responds to command.\n'
+         ' *Flows*\n'
+         ' _Management commands related to flows / conversations._\n'
+         '• *!flows kill* - usage: flows_kill [-h] user flow_name\n'
+         '• *!flows list* - Displays the list of setup flows.\n'
+         '• *!flows show* - Shows the structure of a flow.\n'
+         '• *!flows start* - Manually start a flow within the context of the '
+         'calling user.\n'
+         '• *!flows status* - Displays the list of started flows.\n'
+         '• *!flows stop* - Stop flows you are in.\n'
+         ' *Health*\n'
+         ' _Core plugin for bot lifecycle and health related commands._\n'
+         '• *!restart* - Restart the bot.\n'
+         '• *!shutdown* - usage: shutdown [-h] [--kill] [--confirm]\n'
+         '• *!status* - If I am alive I should be able to respond to this one\n'
+         '• *!status gc* - shows the garbage collection details\n'
+         '• *!status load* - shows the load status\n'
+         '• *!status plugins* - shows the plugin status\n'
+         '• *!uptime* - Return the uptime of the bot\n'
+         ' *Help*\n'
+         ' _Core plugin of help related functions._\n'
+         '• *!about* - Return information about this Errbot instance and '
+         'version\n'
+         '• *!apropos* - Returns a help string listing available options.\n'
+         '• *!help* - Returns a help string listing available options.\n'
+         ' *Plugins*\n'
+         ' _Commands to manage the plugins of the bot by chatting._\n'
+         '• *!plugin activate* - activate a plugin. [calls .activate() on the '
+         'plugin]\n'
+         '• *!plugin blacklist* - Blacklist a plugin so that it will not be '
+         'loaded automatically during bot sta...\n'
+         '• *!plugin config* - configure or get the configuration / '
+         'configuration template for a specific pl...\n'
+         '• *!plugin deactivate* - deactivate a plugin. [calls .deactivate on '
+         'the plugin]\n'
+         '• *!plugin info* - Gives you a more technical information about a '
+         'specific plugin.\n'
+         '• *!plugin reload* - reload a plugin: reload the code of the plugin '
+         'leaving the activation status ...\n'
+         '• *!plugin unblacklist* - Remove a plugin from the blacklist\n'
+         '• *!repos* - list the current active plugin repositories\n'
+         '• *!repos install* - install a plugin repository from the given '
+         'source or a known public repo (see...\n'
+         '• *!repos search* - Searches the repo index.\n'
+         '• *!repos uninstall* - uninstall a plugin repository by name.\n'
+         '• *!repos update* - update the bot and/or plugins\n'
+         ' *Utils*\n'
+         ' _Core Errbot utils commands._\n'
+         '• *!echo* - A simple echo command. Useful for encoding tests etc '
+         '...\n'
+         '• *!history* - display the command history\n'
+         '• *!log tail* - Display a tail of the log of n lines or 40 by '
+         'default\n'
+         '• *!render test* - Tests / showcases the markdown rendering on your '
+         'current backend\n'
+         '• *!whoami* - A simple command echoing the details of your '
+         'identifier. Useful to debug iden...',
+ 'ts': '1583761383.002400',
+ 'type': 'message',
+ 'user': 'UV01S8D45',
+ 'user_team': 'TUPTRJ75F'}
+2020-03-09 14:43:04,173 DEBUG    errbot.backends.slack     Escaped IDs event text: _All commands_
+
+ *Backup*
+ _Backup related commands._
+• *!backup* - Backup everything.
+ *ChatRoom*
+ _This is a basic implementation of a chatroom_
+• *!room create* - Create a chatroom.
+• *!room destroy* - Destroy a chatroom.
+• *!room invite* - Invite one or more people into a chatroom.
+• *!room join* - Join (creating it first if needed) a chatroom.
+• *!room leave* - Leave a chatroom.
+• *!room list* - List chatrooms the bot has joined.
+• *!room occupants* - List the occupants in a given chatroom.
+• *!room topic* - Get or set the topic for a room.
+ *Example*
+ _This is a very basic plugin to try out your new installation and get you started.
+    Feel free to tweak me to experiment with Errbot.
+    You can find me in your init directory in the subdirectory plugins._
+• *!tryme* - Execute to check if Errbot responds to command.
+ *Flows*
+ _Management commands related to flows / conversations._
+• *!flows kill* - usage: flows_kill [-h] user flow_name
+• *!flows list* - Displays the list of setup flows.
+• *!flows show* - Shows the structure of a flow.
+• *!flows start* - Manually start a flow within the context of the calling user.
+• *!flows status* - Displays the list of started flows.
+• *!flows stop* - Stop flows you are in.
+ *Health*
+ _Core plugin for bot lifecycle and health related commands._
+• *!restart* - Restart the bot.
+• *!shutdown* - usage: shutdown [-h] [--kill] [--confirm]
+• *!status* - If I am alive I should be able to respond to this one
+• *!status gc* - shows the garbage collection details
+• *!status load* - shows the load status
+• *!status plugins* - shows the plugin status
+• *!uptime* - Return the uptime of the bot
+ *Help*
+ _Core plugin of help related functions._
+• *!about* - Return information about this Errbot instance and version
+• *!apropos* - Returns a help string listing available options.
+• *!help* - Returns a help string listing available options.
+ *Plugins*
+ _Commands to manage the plugins of the bot by chatting._
+• *!plugin activate* - activate a plugin. [calls .activate() on the plugin]
+• *!plugin blacklist* - Blacklist a plugin so that it will not be loaded automatically during bot sta...
+• *!plugin config* - configure or get the configuration / configuration template for a specific pl...
+• *!plugin deactivate* - deactivate a plugin. [calls .deactivate on the plugin]
+• *!plugin info* - Gives you a more technical information about a specific plugin.
+• *!plugin reload* - reload a plugin: reload the code of the plugin leaving the activation status ...
+• *!plugin unblacklist* - Remove a plugin from the blacklist
+• *!repos* - list the current active plugin repositories
+• *!repos install* - install a plugin repository from the given source or a known public repo (see...
+• *!repos search* - Searches the repo index.
+• *!repos uninstall* - uninstall a plugin repository by name.
+• *!repos update* - update the bot and/or plugins
+ *Utils*
+ _Core Errbot utils commands._
+• *!echo* - A simple echo command. Useful for encoding tests etc ...
+• *!history* - display the command history
+• *!log tail* - Display a tail of the log of n lines or 40 by default
+• *!render test* - Tests / showcases the markdown rendering on your current backend
+• *!whoami* - A simple command echoing the details of your identifier. Useful to debug iden...
+2020-03-09 14:43:04,179 DEBUG    errbot.core               Ignoring message from self.
+2020-03-09 14:43:04,196 DEBUG    urllib3.connectionpool    https://slack.com:443 "POST /api/chat.postMessage HTTP/1.1" 200 1626
+2020-03-09 14:43:04,202 DEBUG    errbot.flow               Test if the command help is a trigger for an inflight flow ...
+2020-03-09 14:43:04,203 DEBUG    errbot.flow               None matched.
+2020-03-09 14:43:04,206 DEBUG    errbot.flow               Test if the command help is an auto-trigger for any flow ...
+2020-03-09 14:51:00,849 DEBUG    errbot.backends.slack     No event handler available for user_typing, ignoring this event
+2020-03-09 14:51:05,921 DEBUG    errbot.backends.slack     No event handler available for user_typing, ignoring this event
+2020-03-09 14:51:08,307 DEBUG    errbot.backends.slack     Processing slack event: {'client_msg_id': 'bee052fc-0da4-4e31-9cfa-76638fa99955', 'suppress_notification': False, 'type': 'message', 'text': '! shutdown --confirm', 'user': 'UUM7A1CCS', 'team': 'TUPTRJ75F', 'blocks': [{'type': 'rich_text', 'block_id': 'PQLb', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': '! shutdown --confirm'}]}]}], 'source_team': 'TUPTRJ75F', 'user_team': 'TUPTRJ75F', 'channel': 'CV01LCXPF', 'event_ts': '1583761867.002700', 'ts': '1583761867.002700'}
+2020-03-09 14:51:08,311 DEBUG    errbot.backends.slack     Saw an event: {'blocks': [{'block_id': 'PQLb',
+             'elements': [{'elements': [{'text': '! shutdown --confirm',
+                                         'type': 'text'}],
+                           'type': 'rich_text_section'}],
+             'type': 'rich_text'}],
+ 'channel': 'CV01LCXPF',
+ 'client_msg_id': 'bee052fc-0da4-4e31-9cfa-76638fa99955',
+ 'event_ts': '1583761867.002700',
+ 'source_team': 'TUPTRJ75F',
+ 'suppress_notification': False,
+ 'team': 'TUPTRJ75F',
+ 'text': '! shutdown --confirm',
+ 'ts': '1583761867.002700',
+ 'type': 'message',
+ 'user': 'UUM7A1CCS',
+ 'user_team': 'TUPTRJ75F'}
+2020-03-09 14:51:08,315 DEBUG    errbot.backends.slack     Escaped IDs event text: ! shutdown --confirm
+2020-03-09 14:51:08,317 DEBUG    errbot.core               *** frm = #chatops-errbot/fabio.morooka
+2020-03-09 14:51:08,318 DEBUG    errbot.core               *** username = @fabio.morooka
+2020-03-09 14:51:08,319 DEBUG    errbot.core               *** text = ! shutdown --confirm
+2020-03-09 14:51:08,324 DEBUG    errbot.plugins.ACLs       Check shutdown for ACLs.
+2020-03-09 14:51:08,326 INFO     errbot.plugins.ACLs       Matching ACL {} against username @fabio.morooka for command Health:shutdown.
+2020-03-09 14:51:08,328 DEBUG    errbot.plugins.ACLs       Check if shutdown is admin only command.
+2020-03-09 14:51:08,329 DEBUG    errbot.backends.slack     Sending channel message to chatops-errbot (CV01LCXPF).
+2020-03-09 14:51:08,331 DEBUG    errbot.backends.slack     Message size: 56.
+2020-03-09 14:51:08,344 DEBUG    urllib3.connectionpool    Starting new HTTPS connection (1): slack.com:443
+2020-03-09 14:51:09,074 DEBUG    urllib3.connectionpool    https://slack.com:443 "POST /api/chat.postMessage HTTP/1.1" 200 339
+2020-03-09 14:51:09,080 INFO     errbot.core               Command None blocked or deferred.
+2020-03-09 14:51:09,082 DEBUG    errbot.core               Triggering callback_message on Example.
+2020-03-09 14:51:09,085 DEBUG    errbot.core               Triggering callback_message on ACLs.
+2020-03-09 14:51:09,086 DEBUG    errbot.core               Triggering callback_message on Backup.
+2020-03-09 14:51:09,090 DEBUG    errbot.core               Triggering callback_message on ChatRoom.
+2020-03-09 14:51:09,091 DEBUG    errbot.core               Triggering callback_message on CommandNotFoundFilter.
+2020-03-09 14:51:09,092 DEBUG    errbot.core               Triggering callback_message on Flows.
+2020-03-09 14:51:09,093 DEBUG    errbot.core               Triggering callback_message on Health.
+2020-03-09 14:51:09,094 DEBUG    errbot.core               Triggering callback_message on Help.
+2020-03-09 14:51:09,094 DEBUG    errbot.core               Triggering callback_message on Plugins.
+2020-03-09 14:51:09,095 DEBUG    errbot.core               Triggering callback_message on Utils.
+2020-03-09 14:51:09,099 DEBUG    errbot.core               Triggering callback_message on VersionChecker.
+2020-03-09 14:51:09,103 DEBUG    errbot.backends.slack     Processing slack event: {'bot_id': 'BV0172G56', 'suppress_notification': False, 'type': 'message', 'text': 'This command may only be issued through a direct message', 'user': 'UV01S8D45', 'team': 'TUPTRJ75F', 'bot_profile': {'id': 'BV0172G56', 'deleted': False, 'name': 'bot', 'updated': 1583510362, 'app_id': 'A0F7YS25R', 'icons': {'image_36': 'https://a.slack-edge.com/80588/img/services/bots_36.png', 'image_48': 'https://a.slack-edge.com/80588/img/plugins/bot/service_48.png', 'image_72': 'https://a.slack-edge.com/80588/img/services/bots_72.png'}, 'team_id': 'TUPTRJ75F'}, 'source_team': 'TUPTRJ75F', 'user_team': 'TUPTRJ75F', 'channel': 'CV01LCXPF', 'event_ts': '1583761868.002800', 'ts': '1583761868.002800'}
+2020-03-09 14:51:09,105 DEBUG    errbot.backends.slack     Saw an event: {'bot_id': 'BV0172G56',
+ 'bot_profile': {'app_id': 'A0F7YS25R',
+                 'deleted': False,
+                 'icons': {'image_36': 'https://a.slack-edge.com/80588/img/services/bots_36.png',
+                           'image_48': 'https://a.slack-edge.com/80588/img/plugins/bot/service_48.png',
+                           'image_72': 'https://a.slack-edge.com/80588/img/services/bots_72.png'},
+                 'id': 'BV0172G56',
+                 'name': 'bot',
+                 'team_id': 'TUPTRJ75F',
+                 'updated': 1583510362},
+ 'channel': 'CV01LCXPF',
+ 'event_ts': '1583761868.002800',
+ 'source_team': 'TUPTRJ75F',
+ 'suppress_notification': False,
+ 'team': 'TUPTRJ75F',
+ 'text': 'This command may only be issued through a direct message',
+ 'ts': '1583761868.002800',
+ 'type': 'message',
+ 'user': 'UV01S8D45',
+ 'user_team': 'TUPTRJ75F'}
+2020-03-09 14:51:09,105 DEBUG    errbot.backends.slack     Escaped IDs event text: This command may only be issued through a direct message
+2020-03-09 14:51:09,106 DEBUG    errbot.core               Ignoring message from self.

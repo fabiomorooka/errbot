@@ -7,16 +7,16 @@ import logging
 
 BACKEND = 'Slack'  # Errbot will start in text mode (console only mode) and will answer commands from there.
 
-BOT_DATA_DIR = r'C:\Users\a784292\OneDrive - Atos\Desktop\Chatbots\errbot\first_test\data'
-BOT_EXTRA_PLUGIN_DIR = r'C:\Users\a784292\OneDrive - Atos\Desktop\Chatbots\errbot\first_test\plugins'
+BOT_DATA_DIR = r'C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\data'
+BOT_EXTRA_PLUGIN_DIR = r'C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\plugins'
 
-BOT_LOG_FILE = r'C:\Users\a784292\OneDrive - Atos\Desktop\Chatbots\errbot\first_test\errbot.log'
+BOT_LOG_FILE = r'C:\Users\a784292\OneDrive - Atos\Desktop\errbot\first_test\errbot.log'
 BOT_LOG_LEVEL = logging.DEBUG
 
 BOT_ADMINS = ('@fabio.morooka')  # !! Don't leave that to "@CHANGE_ME" if you connect your errbot to a chat system !!
 
 BOT_IDENTITY = {
-    'token': 'xoxb-975943619185-986060285141-gwBRScaD13ilaFNztXDv6OAj',
+    'token': 'xoxb-975943619185-986060285141-FVNVe9bN9zkbx4xpMwqC4t6m',
 }
 
 BOT_ALT_PREFIXES = ('@errbot')
